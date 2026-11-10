@@ -1,0 +1,71 @@
+{
+  "pom.xml" : {
+    "compile" : [ {
+      "coordinate" : "com.fasterxml.jackson.core:jackson-core",
+      "oldVersion" : "2.21.5",
+      "newVersion" : "2.21.8",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "com.fasterxml.jackson.core:jackson-databind",
+      "oldVersion" : "2.21.5",
+      "newVersion" : "2.21.8",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+      "oldVersion" : "2.21.5",
+      "newVersion" : "2.21.8",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "com.fasterxml.jackson.module:jackson-module-parameter-names",
+      "oldVersion" : "2.21.5",
+      "newVersion" : "2.21.8",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.apache.tomcat.embed:tomcat-embed-core",
+      "oldVersion" : "10.1.57",
+      "newVersion" : "10.1.61",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.apache.tomcat.embed:tomcat-embed-el",
+      "oldVersion" : "10.1.57",
+      "newVersion" : "10.1.61",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.apache.tomcat.embed:tomcat-embed-websocket",
+      "oldVersion" : "10.1.57",
+      "newVersion" : "10.1.61",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.hibernate.orm:hibernate-core",
+      "oldVersion" : "6.6.54.Final",
+      "newVersion" : "6.6.59.Final",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.slf4j:jul-to-slf4j",
+      "oldVersion" : "2.0.18",
+      "newVersion" : "2.0.20",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.slf4j:slf4j-api",
+      "oldVersion" : "2.0.18",
+      "newVersion" : "2.0.20",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.thymeleaf:thymeleaf",
+      "oldVersion" : "3.1.5.RELEASE",
+      "newVersion" : "3.1.6.RELEASE",
+      "scope" : "compile"
+    }, {
+      "coordinate" : "org.thymeleaf:thymeleaf-spring6",
+      "oldVersion" : "3.1.5.RELEASE",
+      "newVersion" : "3.1.6.RELEASE",
+      "scope" : "compile"
+    } ],
+    "provided" : [ {
+      "coordinate" : "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+      "oldVersion" : "2.21.5",
+      "newVersion" : "2.21.8",
+      "scope" : "provided"
+    } ]
+  }
+}
